@@ -21,11 +21,10 @@
                 margin: 0 auto;
                
             }
-            div{
-                background-color: rgb(236, 185, 209);
-                color: rgb(65, 50, 43);
-                max-width: 800px; 
-                margin: 0 auto;
+            img{
+                width: 70%
+                border-radius: 20px;
+                margin: 20px;
             }
         
         </style>
@@ -46,24 +45,12 @@
     title="Vídeo da Hello Kitty"
     allowfullscreen>
 </iframe>
-
+<img scr="WhatsApp Image 2026-09-01 at 03,32,08.jpeg" alt="personagens da turma da hello kitty">
 <button>💗 <span>0</span></button>
 <button>💕 <span>0</span></button>
     </main>
-    </article>
-       <main>
-        <h2>Sobre os episodios</h2>
-       <p>Os episódios da série Hello Kitty and Friends mostram aventuras divertidas e fofas da Hello Kitty e seus amigos. Em cada episódio, eles vivem novas experiências, aprendem lições importantes sobre amizade, gentileza e trabalho em equipe. As histórias são leves, divertidas e cheias de momentos especiais.</p>
-    width="400" 
-    height="225" 
-    src="https://youtu.be/H3FahBuHUag?is=zLGqgUj7Fm9bCl-p"
-    title="Vídeo da Hello Kitty"
-    allowfullscreen>
-</iframe>
-
-<button>💗 <span>0</span></button>
-<button>💕 <span>0</span></button>
-    </main>
+    
+   
 </body>
 <script>
     const botao = document.querySelectorAll("button");
@@ -72,17 +59,9 @@
 function botaoClicado() {
     console.log("fui clicado");
     let texto = botao.querySelector("span");
-    if (curtiu === false){
         texto.textContent++;
-        curtiu = true;
-    } else {
-        texto.textContent--;
-        curtiu = false;
-    }
+    
 }
-<div>
-
-</div>
 
 </script>
 </html> 
